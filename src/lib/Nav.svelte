@@ -24,9 +24,7 @@
     font-weight: 800;
   }
   .ticket {
-    border-radius: 15%;
-
+    border-radius: 15px;
     background-color: rgb(246, 123, 69);
-    border-width: 20px;
   }
 </style>
