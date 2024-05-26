@@ -12,7 +12,7 @@
   }
   .container {
     width: 3000px;
-    height: 653px;
+    height: 565px;
     display: flex;
     justify-content: center;
     align-items: center;
