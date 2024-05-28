@@ -8,10 +8,9 @@
   @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
   header {
     background-image: url(aditya-chinchure.jpg);
-    background-size: contain;
+    background-size: cover;
   }
   .container {
-    width: 3000px;
     height: 565px;
     display: flex;
     justify-content: center;

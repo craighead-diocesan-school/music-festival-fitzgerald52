@@ -1,8 +1,12 @@
+<script>
+  import { page } from '$app/stores'
+</script>
+
 <nav>
-  <a href="/">Home</a>
-  <a href="/acts">Acts</a>
-  <a href="/accommodation">Accommodation</a>
-  <a class="ticket" href="/tickets">Tickets </a>
+  <a class:is-active={$page.url.pathname == '/'} href="/">Home</a>
+  <a class:is-active={$page.url.pathname == '/acts'} href="/acts">Acts</a>
+  <a class:is-active={$page.url.pathname == '/accommodation'} href="/accommodation">Accommodation</a>
+  <a class:is-active={$page.url.pathname == '/tickets'} href="/ticket">Tickets </a>
 </nav>
 
 <style>
@@ -23,7 +27,7 @@
     font-size: large;
     font-weight: 800;
   }
-  .ticket {
+  .is-active {
     border-radius: 15px;
     background-color: rgb(246, 123, 69);
   }
