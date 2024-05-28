@@ -6,7 +6,7 @@
 
 <Nav />
 <Header />
-<h2>Home</h2>
+<h2>accommodation</h2>
 <main>
   <img class="photo" src="/jade-masri.jpg" alt="group of young adults having fun ontop of each others shoulderss" />
   <p>Welcome to the ultimate music festival experience! Get ready for a day filled with live music, great food, and unforgettable memories. Our festival features a diverse lineup of talented musicians from different genres, sure to satisfy every taste in music. With multiple stages set up throughout the venue, you can easily move from one act to the next, discovering new favorites and enjoying classic hits. From up-and-coming artists to established headliners, we have curated an exciting lineup that will keep you dancing and singing along all day long. Our festival is the perfect opportunity to discover new music, see your favorite artists live, and make lasting memories with friends and family.</p>
