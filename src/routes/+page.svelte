@@ -1,6 +1,7 @@
 <script>
   import Header from '$lib/Header.svelte'
-  import Nav from '../lib/Nav.svelte'
+  import Nav from '$lib/Nav.svelte'
+  import Footer from '$lib/Footer.svelte'
 </script>
 
 <Nav />
@@ -12,14 +13,15 @@
   <p>But the music is just the beginning. Our festival also boasts an impressive selection of food vendors, offering everything from classic festival fare to more gourmet options. You won't go hungry with the delicious treats and refreshing beverages available throughout the venue. In addition to the music and food, our festival also features a variety of activities to keep you entertained throughout the day. From art installations to merchandise booths, there is something for everyone to enjoy. You can even capture the memories with our festival photo booths and snap a selfie with your favourite artists. So don't miss out on this one-of-a-kind music festival experience. Get your tickets now and join us for a day of music, fun, and community. We can't wait to see you there!</p>
   <img class="photo" src="/james-genchi.jpg" alt="large crowd of people cherring towads stage while confitie falls" />
 </main>
-
-<footer>
-  <p>&copy; Craighead Diocesan School 2024</p>
-</footer>
+<Footer />
 
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Rock+Salt&display=swap');
+  main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
   h2 {
     background-color: rgb(249, 125, 193);
     padding: 20px;
@@ -34,8 +36,10 @@
     font-weight: 800;
     padding-top: 20px;
     color: black;
+    padding: 30px;
   }
   .photo {
-    width: 500px;
+    width: 650px;
+    padding: 30px;
   }
 </style>

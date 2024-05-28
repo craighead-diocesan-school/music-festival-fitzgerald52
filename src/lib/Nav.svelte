@@ -6,7 +6,7 @@
   <a class:is-active={$page.url.pathname == '/'} href="/">Home</a>
   <a class:is-active={$page.url.pathname == '/acts'} href="/acts">Acts</a>
   <a class:is-active={$page.url.pathname == '/accommodation'} href="/accommodation">Accommodation</a>
-  <a class:is-active={$page.url.pathname == '/tickets'} href="/ticket">Tickets </a>
+  <a class:is-active={$page.url.pathname == '/ticket'} href="/ticket">Tickets </a>
 </nav>
 
 <style>
