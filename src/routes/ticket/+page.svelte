@@ -6,12 +6,12 @@
 
 <Nav />
 <Header />
-<h2>Home</h2>
+<h2>tickets</h2>
 <main>
-  <img class="photo" src="/jade-masri.jpg" alt="group of young adults having fun ontop of each others shoulderss" />
-  <p>Welcome to the ultimate music festival experience! Get ready for a day filled with live music, great food, and unforgettable memories. Our festival features a diverse lineup of talented musicians from different genres, sure to satisfy every taste in music. With multiple stages set up throughout the venue, you can easily move from one act to the next, discovering new favorites and enjoying classic hits. From up-and-coming artists to established headliners, we have curated an exciting lineup that will keep you dancing and singing along all day long. Our festival is the perfect opportunity to discover new music, see your favorite artists live, and make lasting memories with friends and family.</p>
-  <p>But the music is just the beginning. Our festival also boasts an impressive selection of food vendors, offering everything from classic festival fare to more gourmet options. You won't go hungry with the delicious treats and refreshing beverages available throughout the venue. In addition to the music and food, our festival also features a variety of activities to keep you entertained throughout the day. From art installations to merchandise booths, there is something for everyone to enjoy. You can even capture the memories with our festival photo booths and snap a selfie with your favourite artists. So don't miss out on this one-of-a-kind music festival experience. Get your tickets now and join us for a day of music, fun, and community. We can't wait to see you there!</p>
-  <img class="photo" src="/james-genchi.jpg" alt="large crowd of people cherring towads stage while confitie falls" />
+  <img class="photo" src="/aranxa-esteve.jpg" alt="group of young adults having fun ontop of each others shoulderss" />
+  <p>Tickets are $200 per person, and festival goers must be 15 years of age or older. Tent sites are $15 per night, or $40 with a tent included.</p>
+  <p>Nā te tangata kotahi te utu mō ngā tīkiti, ā, me noho mā te tangata tekau mā rima tau rānei te āhua o te tangata.He $15 te utu mō ngā wāhanga papa, i te pōturi, rānei $40 me te papa whakauru.</p>
+  <img class="photo" src="/hanny-naibaho.jpg" alt="large crowd of people cherring towads stage while confitie falls" />
 </main>
 <Footer />
 
