@@ -40,6 +40,7 @@
     padding-top: 20px;
     color: black;
     padding: 30px;
+    align-self: center;
   }
   .photo {
     height: 600px;

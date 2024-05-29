@@ -37,6 +37,7 @@
     padding-top: 20px;
     color: black;
     padding: 30px;
+    align-self: center;
   }
   .photo {
     width: 650px;
