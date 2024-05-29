@@ -43,7 +43,10 @@
     align-self: center;
   }
   .photo {
-    height: 600px;
+    margin: 20px;
+    width: 650px;
     padding: 30px;
+    border-radius: 15px;
+    background-color: rgb(246, 123, 69, 0.5);
   }
 </style>
