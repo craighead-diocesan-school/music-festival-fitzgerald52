@@ -31,4 +31,13 @@
     border-radius: 15px;
     background-color: rgb(246, 123, 69);
   }
+  @media screen and (max-width: 600px) {
+    a {
+      font-size: medium;
+      padding-left: 30px;
+      padding-right: 30px;
+      padding-top: 6px;
+      padding-bottom: 6px;
+    }
+  }
 </style>
