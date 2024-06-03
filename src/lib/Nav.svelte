@@ -3,10 +3,10 @@
 </script>
 
 <nav>
-  <a class:is-active={$page.url.pathname == '/'} href="/">Home</a>
-  <a class:is-active={$page.url.pathname == '/acts'} href="/acts">Acts</a>
-  <a class:is-active={$page.url.pathname == '/accommodation'} href="/accommodation">Accommodation</a>
-  <a class:is-active={$page.url.pathname == '/ticket'} href="/ticket">Tickets </a>
+  <a class:is-active={$page.url.pathname == '/'} href="/">Home - Wā Kāinga </a>
+  <a class:is-active={$page.url.pathname == '/acts'} href="/acts">Acts - Purei</a>
+  <a class:is-active={$page.url.pathname == '/accommodation'} href="/accommodation">Accommodation - Wāhi Noho</a>
+  <a class:is-active={$page.url.pathname == '/ticket'} href="/ticket">Tickets - Tīketi </a>
 </nav>
 
 <style>

@@ -6,7 +6,7 @@
 
 <Nav />
 <Header />
-<h2>tickets</h2>
+<h2>Tickets - Tīketi</h2>
 <main>
   <img class="photo" src="/aranxa-esteve.jpg" alt="group of girls siiting in the back of the crowd" title="Aranxa Esteve" />
   <p>Tickets are $200 per person, and festival goers must be 15 years of age or older. Tent sites are $15 per night, or $40 with a tent included.</p>

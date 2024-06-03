@@ -6,7 +6,7 @@
 
 <Nav />
 <Header />
-<h2>acts</h2>
+<h2>Acts - Purei</h2>
 <main>
   <img class="photo" src="/colin-lloyd.jpg" alt="lady djing " title="Colin Lloyd" />
   <p>
