@@ -8,10 +8,10 @@
 <Header />
 <h2>tickets</h2>
 <main>
-  <img class="photo" src="/aranxa-esteve.jpg" alt="group of young adults having fun ontop of each others shoulderss" />
+  <img class="photo" src="/aranxa-esteve.jpg" alt="group of girls siiting in the back of the crowd" title="Aranxa Esteve" />
   <p>Tickets are $200 per person, and festival goers must be 15 years of age or older. Tent sites are $15 per night, or $40 with a tent included.</p>
   <p>Nā te tangata kotahi te utu mō ngā tīkiti, ā, me noho mā te tangata tekau mā rima tau rānei te āhua o te tangata.He $15 te utu mō ngā wāhanga papa, i te pōturi, rānei $40 me te papa whakauru.</p>
-  <img class="photo" src="/hanny-naibaho.jpg" alt="large crowd of people cherring towads stage while confitie falls" />
+  <img class="photo" src="/hanny-naibaho.jpg" alt="large crowd of people cherring towads stage with purple lights" title="Hanny Naibaho" />
 </main>
 <Footer />
 
