@@ -46,4 +46,21 @@
     border-radius: 15px;
     background-color: rgb(246, 123, 69, 0.5);
   }
+  @media screen and (max-width: 600px) {
+    main {
+      display: flex;
+    }
+    h2 {
+      font-size: larger;
+    }
+    p {
+      font-weight: 500;
+      padding: 15px;
+    }
+    .photo {
+      margin: 10px;
+      width: 500px;
+      padding: 15px;
+    }
+  }
 </style>
