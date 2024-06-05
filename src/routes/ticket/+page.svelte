@@ -2,16 +2,19 @@
   import Header from '$lib/Header.svelte'
   import Nav from '$lib/Nav.svelte'
   import Footer from '$lib/Footer.svelte'
+  import Subheading from '$lib/Subheading.svelte'
+  import Image from '$lib/Image.svelte'
 </script>
 
 <Nav />
 <Header />
-<h2>Tickets - Tīketi</h2>
+<Subheading caption="Tickets - Tīketi" />
+
 <main>
-  <img class="photo" src="/aranxa-esteve.jpg" alt="group of girls siiting in the back of the crowd" title="Aranxa Esteve" />
+  <Image src="/aranxa-esteve.jpg" alt="group of girls siiting in the back of the crowd" title="Aranxa Esteve" />
   <p>Tickets are $200 per person, and festival goers must be 15 years of age or older. Tent sites are $15 per night, or $40 with a tent included.</p>
   <p>Nā te tangata kotahi te utu mō ngā tīkiti, ā, me noho mā te tangata tekau mā rima tau rānei te āhua o te tangata.He $15 te utu mō ngā wāhanga papa, i te pōturi, rānei $40 me te papa whakauru.</p>
-  <img class="photo" src="/hanny-naibaho.jpg" alt="large crowd of people cherring towads stage with purple lights" title="Hanny Naibaho" />
+  <Image src="/hanny-naibaho.jpg" alt="large crowd of people cherring towads stage with purple lights" title="Hanny Naibaho" />
 </main>
 <Footer />
 
@@ -22,15 +25,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
-  h2 {
-    background-color: rgb(249, 125, 193);
-    padding: 20px;
-    font-size: x-large;
-    color: black;
-    text-align: center;
-    font-family: 'Rock Salt', cursive;
-    font-weight: 800;
-  }
+
   p {
     font-family: 'Krona One', sans-serif;
     font-weight: 800;
@@ -39,27 +34,14 @@
     padding: 30px;
     align-self: center;
   }
-  .photo {
-    margin: 20px;
-    width: 650px;
-    padding: 30px;
-    border-radius: 15px;
-    background-color: rgb(246, 123, 69, 0.5);
-  }
+
   @media screen and (max-width: 600px) {
     main {
       display: flex;
     }
-    h2 {
-      font-size: larger;
-    }
+
     p {
       font-weight: 500;
-      padding: 15px;
-    }
-    .photo {
-      margin: 10px;
-      width: 500px;
       padding: 15px;
     }
   }
