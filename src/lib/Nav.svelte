@@ -1,12 +1,31 @@
 <script>
   import { page } from '$app/stores'
+  let navVisible = false
+
+  function toggleNav() {
+    navVisible = !navVisible
+  }
 </script>
 
-<nav>
-  <a class:is-active={$page.url.pathname == '/'} href="/">Home - Wā Kāinga </a>
-  <a class:is-active={$page.url.pathname == '/acts'} href="/acts">Acts - Purei</a>
-  <a class:is-active={$page.url.pathname == '/accommodation'} href="/accommodation">Accommodation - Wāhi Noho</a>
-  <a class:is-active={$page.url.pathname == '/ticket'} href="/ticket">Tickets - Tīketi </a>
+<nav class="navbar">
+  <div class="navbar-brand">
+    <a class="navbar-iteam" class:is-active={$page.url.pathname == '/'} href="/">Home - Wā Kāinga </a>
+    <!-- only visible on mbile. when clicked, it will show the menu -->
+    <a class="navbar-burger" on:click={toggleNav}>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+
+  <div class="navbar-menu" class:is-active={navVisible}>
+    <div class="navbar-end">
+      <a class:is-active={$page.url.pathname == '/acts'} href="/acts">Acts - Purei</a>
+      <a class:is-active={$page.url.pathname == '/accommodation'} href="/accommodation">Accommodation - Wāhi Noho</a>
+      <a class:is-active={$page.url.pathname == '/ticket'} href="/ticket">Tickets - Tīketi </a>
+    </div>
+  </div>
 </nav>
 
 <style>
