@@ -41,6 +41,8 @@
   @media screen and (max-width: 600px) {
     main {
       display: flex;
+      flex-direction: column;
+      align-items: center;
     }
 
     p {

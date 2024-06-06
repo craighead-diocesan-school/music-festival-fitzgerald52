@@ -19,7 +19,7 @@
   @media screen and (max-width: 600px) {
     .photo {
       margin: 10px;
-      width: 500px;
+      width: 350px;
       padding: 15px;
     }
   }
