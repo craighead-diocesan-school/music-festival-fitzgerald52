@@ -9,7 +9,7 @@
 
 <nav class="navbar">
   <div class="navbar-brand">
-    <a class="navbar-iteam" class:is-actived={$page.url.pathname == '/'} href="/">Home - Wā Kāinga </a>
+    <a class="navbar-item" class:is-actived={$page.url.pathname == '/'} href="/">Home - Wā Kāinga </a>
     <!-- only visible on mbile. when clicked, it will show the menu -->
     <a class="navbar-burger" on:click={toggleNav}>
       <span aria-hidden="true"></span>
@@ -21,9 +21,9 @@
 
   <div class="navbar-menu" class:is-active={navVisible}>
     <div class="navbar-end">
-      <a class:is-actived={$page.url.pathname == '/acts'} href="/acts">Acts - Purei</a>
-      <a class:is-actived={$page.url.pathname == '/accommodation'} href="/accommodation">Accommodation - Wāhi Noho</a>
-      <a class:is-actived={$page.url.pathname == '/ticket'} href="/ticket">Tickets - Tīketi </a>
+      <a class=" navbar-item" class:is-actived={$page.url.pathname == '/acts'} href="/acts">Acts - Purei</a>
+      <a class="navbar-item" class:is-actived={$page.url.pathname == '/accommodation'} href="/accommodation">Accommodation - Wāhi Noho</a>
+      <a class="navbar-item" class:is-actived={$page.url.pathname == '/ticket'} href="/ticket">Tickets - Tīketi </a>
     </div>
   </div>
 </nav>
@@ -32,21 +32,24 @@
   @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Rock+Salt&display=swap');
   nav {
     background-color: rgb(16, 218, 243);
-    padding: 25px;
-    /* display: flex;
-    justify-content: space-around; */
   }
 
-  a {
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+  a.navbar-item {
     color: black;
     font-family: 'Krona One', sans-serif;
     font-size: large;
     font-weight: 800;
+    margin-right: 30px;
   }
+
+  a.navbar-item:hover {
+    background-color: rgb(16, 218, 243);
+  }
+
+  .navbar-end {
+    gap: 4rem;
+  }
+
   .navbar-menu {
     background-color: rgb(16, 218, 243);
   }
@@ -54,17 +57,10 @@
     border-radius: 15px;
     background-color: rgb(246, 123, 69);
   }
+
   @media screen and (max-width: 600px) {
-    a {
+    a.navbar-item {
       font-size: xx-small;
-      padding-left: 5px;
-      padding-right: 5px;
-      padding-top: 10px;
-      padding-bottom: 10px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      height: 35px;
     }
   }
 </style>
