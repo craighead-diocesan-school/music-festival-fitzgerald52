@@ -1,5 +1,5 @@
 <footer>
-  <p>&copy; Craighead Diocesan School 2024</p>
+  <p>&copy; Emma Fitzgerald Craighead Diocesan School 2024</p>
 </footer>
 
 <style>
